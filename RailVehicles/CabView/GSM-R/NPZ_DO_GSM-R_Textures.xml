@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cNamedTextureSetBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="Name">
+				<cDeltaString>
+					<Element>
+						<Value>GSM-R Numbers</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="TextureEntry">
+				<__Indexed__cNamedTextureSetBlueprint-sTextureEntry>
+					<Element>
+						<Value>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>a</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R0.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>b</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R1.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>c</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R2.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>d</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R3.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>e</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R4.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>f</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R5.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>g</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R6.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>h</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R7.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>i</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R8.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+							<cNamedTextureSetBlueprint-sTextureEntry>
+								<Element>
+									<Value>
+										<Attribute name="TextureName">
+											<cDeltaString>
+												<Element>
+													<Value>j</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+										<Attribute name="TextureID">
+											<cDeltaString>
+												<Element>
+													<Value>RailVehicles\CabView\GSM-R\Textures\GSM-R9.dds</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</cNamedTextureSetBlueprint-sTextureEntry>
+						</Value>
+					</Element>
+				</__Indexed__cNamedTextureSetBlueprint-sTextureEntry>
+			</Attribute>
+		</Value>
+	</Element>
+</cNamedTextureSetBlueprint>

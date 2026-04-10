@@ -139,14 +139,14 @@
 															<Attribute name="Provider">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>InbetweenArrows</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
 															<Attribute name="Product">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>Re_420</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
@@ -157,7 +157,7 @@
 											<Attribute name="BlueprintID">
 												<cDeltaString>
 													<Element>
-														<Value />
+														<Value>RailVehicles\Couplings\NPZ_Coupler.xml</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
@@ -176,14 +176,14 @@
 															<Attribute name="Provider">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>InbetweenArrows</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
 															<Attribute name="Product">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>Re_420</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
@@ -194,7 +194,7 @@
 											<Attribute name="BlueprintID">
 												<cDeltaString>
 													<Element>
-														<Value />
+														<Value>RailVehicles\Couplings\NPZ_Coupler.xml</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
@@ -277,12 +277,12 @@
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>1.01553</Value>
+																	<Value>1.09461</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>12.0324</Value>
+																	<Value>7.31905</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -373,12 +373,12 @@
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>1.01553</Value>
+																	<Value>1.09461</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>-12.0324</Value>
+																	<Value>-7.31905</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -469,12 +469,12 @@
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>1.01553</Value>
+																	<Value>1.08393</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>12.1282</Value>
+																	<Value>7.39078</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -500,7 +500,7 @@
 														<Value>
 															<sFloat32>
 																<Element>
-																	<Value>-1</Value>
+																	<Value>1</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -550,7 +550,7 @@
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>-1</Value>
+																	<Value>1</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -565,12 +565,12 @@
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>1.01553</Value>
+																	<Value>1.08393</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
 																<Element>
-																	<Value>-12.1282</Value>
+																	<Value>-7.39078</Value>
 																</Element>
 															</sFloat32>
 															<sFloat32>
@@ -589,7 +589,7 @@
 							<Attribute name="Mass">
 								<sFloat32>
 									<Element>
-										<Value>41</Value>
+										<Value>80</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
@@ -603,28 +603,28 @@
 							<Attribute name="FrontPivotX">
 								<sFloat32>
 									<Element>
-										<Value>12.5426</Value>
+										<Value>7.70565</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="FrontPivotY">
 								<sFloat32>
 									<Element>
-										<Value>1.06276</Value>
+										<Value>1.06</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="BackPivotX">
 								<sFloat32>
 									<Element>
-										<Value>-12.5426</Value>
+										<Value>-7.70565</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="BackPivotY">
 								<sFloat32>
 									<Element>
-										<Value>1.06276</Value>
+										<Value>1.06</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
@@ -638,28 +638,28 @@
 							<Attribute name="CollisionCentreY">
 								<sFloat32>
 									<Element>
-										<Value>1.74</Value>
+										<Value>2.184895</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="CollisionWidth">
 								<sFloat32>
 									<Element>
-										<Value>2.8466</Value>
+										<Value>2.95</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="CollisionHeight">
 								<sFloat32>
 									<Element>
-										<Value>3.28</Value>
+										<Value>4.16979</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
 							<Attribute name="CollisionLength">
 								<sFloat32>
 									<Element>
-										<Value>24.5252</Value>
+										<Value>14.8513</Value>
 									</Element>
 								</sFloat32>
 							</Attribute>
@@ -715,7 +715,7 @@
 														<Attribute name="BogeyPivotX">
 															<sFloat32>
 																<Element>
-																	<Value>8.8</Value>
+																	<Value>3.95</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
@@ -744,7 +744,7 @@
 																						<Attribute name="Product">
 																							<cDeltaString>
 																								<Element>
-																									<Value>RBDe_56x_NPZ</Value>
+																									<Value>Re_420</Value>
 																								</Element>
 																							</cDeltaString>
 																						</Attribute>
@@ -755,7 +755,7 @@
 																		<Attribute name="BlueprintID">
 																			<cDeltaString>
 																				<Element>
-																					<Value>RailVehicles\Bogies\BogeyFront_unpowered.xml</Value>
+																					<Value>RailVehicles\Bogies\BogeyFront.xml</Value>
 																				</Element>
 																			</cDeltaString>
 																		</Attribute>
@@ -772,7 +772,7 @@
 														<Attribute name="BogeyPivotX">
 															<sFloat32>
 																<Element>
-																	<Value>-8.8</Value>
+																	<Value>-3.95</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
@@ -801,7 +801,7 @@
 																						<Attribute name="Product">
 																							<cDeltaString>
 																								<Element>
-																									<Value>RBDe_56x_NPZ</Value>
+																									<Value>Re_420</Value>
 																								</Element>
 																							</cDeltaString>
 																						</Attribute>
@@ -812,7 +812,7 @@
 																		<Attribute name="BlueprintID">
 																			<cDeltaString>
 																				<Element>
-																					<Value>RailVehicles\Bogies\BogeyBack_unpowered.xml</Value>
+																					<Value>RailVehicles\Bogies\BogeyBack.xml</Value>
 																				</Element>
 																			</cDeltaString>
 																		</Attribute>
@@ -830,21 +830,21 @@
 							<Attribute name="StopgoRemapper">
 								<cDeltaString>
 									<Element>
-										<Value>Domino Mapper</Value>
+										<Value />
 									</Element>
 								</cDeltaString>
 							</Attribute>
 							<Attribute name="IntermediateRemapper">
 								<cDeltaString>
 									<Element>
-										<Value>Domino Mapper</Value>
+										<Value />
 									</Element>
 								</cDeltaString>
 							</Attribute>
 							<Attribute name="ExpertRemapper">
 								<cDeltaString>
 									<Element>
-										<Value>Domino Mapper</Value>
+										<Value />
 									</Element>
 								</cDeltaString>
 							</Attribute>
@@ -904,56 +904,56 @@
 											<Attribute name="English">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="French">
 												<cDeltaString>
 													<Element>
-														<Value>CFF ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="Italian">
 												<cDeltaString>
 													<Element>
-														<Value>FFS ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="German">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="Spanish">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="Dutch">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="Polish">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="Russian">
 												<cDeltaString>
 													<Element>
-														<Value>SBB ABt NPZ DO</Value>
+														<Value>SBB Re 420</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
@@ -1371,14 +1371,14 @@
 															<Attribute name="Provider">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>InbetweenArrows</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
 															<Attribute name="Product">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>Re_420</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
@@ -1389,7 +1389,7 @@
 											<Attribute name="BlueprintID">
 												<cDeltaString>
 													<Element>
-														<Value />
+														<Value>RailVehicles\Simulation\Re420_Sim.xml</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
@@ -1412,14 +1412,14 @@
 											<Attribute name="InteriorGeometryID">
 												<cDeltaString>
 													<Element>
-														<Value />
+														<Value>RailVehicles\CabView\Re_420_Cab.igs</Value>
 													</Element>
 												</cDeltaString>
 											</Attribute>
 											<Attribute name="NumberOfCabs">
 												<eNumberOfCabs>
 													<Element>
-														<Value>eSingleCab</Value>
+														<Value>eDoubleCab</Value>
 													</Element>
 												</eNumberOfCabs>
 											</Attribute>
@@ -1434,14 +1434,14 @@
 																			<Attribute name="Provider">
 																				<cDeltaString>
 																					<Element>
-																						<Value />
+																						<Value>InbetweenArrows</Value>
 																					</Element>
 																				</cDeltaString>
 																			</Attribute>
 																			<Attribute name="Product">
 																				<cDeltaString>
 																					<Element>
-																						<Value />
+																						<Value>Re_420</Value>
 																					</Element>
 																				</cDeltaString>
 																			</Attribute>
@@ -1452,7 +1452,7 @@
 															<Attribute name="BlueprintID">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>RailVehicles\CabView\Re_420_CabView.xml</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
@@ -1471,14 +1471,14 @@
 																			<Attribute name="Provider">
 																				<cDeltaString>
 																					<Element>
-																						<Value />
+																						<Value>InbetweenArrows</Value>
 																					</Element>
 																				</cDeltaString>
 																			</Attribute>
 																			<Attribute name="Product">
 																				<cDeltaString>
 																					<Element>
-																						<Value />
+																						<Value>Re_420</Value>
 																					</Element>
 																				</cDeltaString>
 																			</Attribute>
@@ -1489,7 +1489,7 @@
 															<Attribute name="BlueprintID">
 																<cDeltaString>
 																	<Element>
-																		<Value />
+																		<Value>RailVehicles\CabView\NPZ_DO_Fst_CabOcclusion.xml</Value>
 																	</Element>
 																</cDeltaString>
 															</Attribute>
