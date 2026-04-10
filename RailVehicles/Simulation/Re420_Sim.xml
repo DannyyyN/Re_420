@@ -761,7 +761,7 @@
 														<Attribute name="MaxForce">
 															<sFloat32>
 																<Element>
-																	<Value>41</Value>
+																	<Value>63</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
@@ -1059,14 +1059,14 @@
 														<Attribute name="OverloadCurrent">
 															<sFloat32>
 																<Element>
-																	<Value>1100</Value>
+																	<Value>2800</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
 														<Attribute name="MaxCurrent">
 															<sFloat32>
 																<Element>
-																	<Value>1300</Value>
+																	<Value>3100</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
