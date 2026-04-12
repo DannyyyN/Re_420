@@ -45,6 +45,13 @@ G_StartupTimer = 0
 G_StartupComplete = false
 _hasUpdated = false
 
+-- Tachometer (NL_vMesser): 1-Sekunden-Refresh
+G_Speedo_RefreshTimer   = 0.0
+G_Speedo_DisplayedSpeed = 0.0
+
+-- Virtuelles Amperemeter (NL_FM_Traktion): geglätteter Anzeigewert
+G_Ammeter_Displayed = 0.0
+
 --------------------------------------------------------------------------------
 -- STUFENSCHALTER
 -- 32 Fahrstufen  → Stufe 32 = Regulator 1.0 = 3100A
@@ -600,6 +607,36 @@ function Bremsrechner(dt)
 end
 
 --------------------------------------------------------------------------------
+-- TACHOMETER (NL_vMesser)
+-- Zeigt Geschwindigkeit / 10 an (135 km/h -> 13.5).
+-- Aktualisiert nur einmal pro Sekunde.
+--------------------------------------------------------------------------------
+
+function UpdateSpeedometer(dt)
+    G_Speedo_RefreshTimer = G_Speedo_RefreshTimer + dt
+    if G_Speedo_RefreshTimer >= 1.0 then
+        G_Speedo_RefreshTimer = 0.0
+        local speedKPH = math.abs(Call("GetSpeed") or 0) * 3.6
+        G_Speedo_DisplayedSpeed = speedKPH / 10.0
+    end
+    SetControlValue("NL_vMesser", G_Speedo_DisplayedSpeed)
+end
+
+--------------------------------------------------------------------------------
+-- VIRTUELLES AMPEREMETER (NL_FM_Traktion)
+-- Liest Ammeter, nimmt Absolutwert, skaliert auf kA (*0.001),
+-- dann SmoothMoveEaseOut fuer weiche Nadeldarstellung.
+--------------------------------------------------------------------------------
+
+function UpdateAmmeter(dt)
+    local raw = Call("*:GetControlValue", "Ammeter", 0) or 0
+    local targetKA = math.abs(raw) * 0.001   -- z.B. 3500A -> 3.5
+    G_Ammeter_Displayed = SmoothMoveEaseOut(dt, G_Ammeter_Displayed, targetKA, 5.0)
+    SetControlValue("NL_FM_Traktion", G_Ammeter_Displayed)
+end
+
+
+--------------------------------------------------------------------------------
 -- REVERSER-INTERLOCK (identische Logik zum Domino)
 -- • VirtualThrottle gesperrt wenn Reverser auf Neutral (0)
 -- • Reverser gesperrt wenn Fahrschalter nicht auf 0 ODER Zug in Fahrt
@@ -755,4 +792,6 @@ function Update(dt)
     Bremsventil(dt)
     Bremsrechner(dt)
     UpdateReverserInterlocks()
+    UpdateSpeedometer(dt)
+    UpdateAmmeter(dt)
 end

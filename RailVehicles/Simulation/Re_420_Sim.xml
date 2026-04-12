@@ -1059,14 +1059,14 @@
 														<Attribute name="OverloadCurrent">
 															<sFloat32>
 																<Element>
-																	<Value>2800</Value>
+																	<Value>3100</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
 														<Attribute name="MaxCurrent">
 															<sFloat32>
 																<Element>
-																	<Value>3100</Value>
+																	<Value>4000</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
