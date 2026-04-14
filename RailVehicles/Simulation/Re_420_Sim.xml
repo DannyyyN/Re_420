@@ -1009,7 +1009,7 @@
 																					<Attribute name="MaxResistorCurrent">
 																						<sFloat32>
 																							<Element>
-																								<Value>750</Value>
+																								<Value>2200</Value>
 																							</Element>
 																						</sFloat32>
 																					</Attribute>
@@ -1059,7 +1059,7 @@
 														<Attribute name="OverloadCurrent">
 															<sFloat32>
 																<Element>
-																	<Value>3100</Value>
+																	<Value>3400</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>

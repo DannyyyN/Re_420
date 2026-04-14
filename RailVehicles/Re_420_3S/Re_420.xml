@@ -6887,7 +6887,7 @@
 														<Attribute name="MaximumValue">
 															<sFloat32>
 																<Element>
-																	<Value>3100</Value>
+																	<Value>4000</Value>
 																</Element>
 															</sFloat32>
 														</Attribute>
